@@ -6,6 +6,10 @@ public class Customer {
     private String name;
     private String gender;
 
+    public Customer() {
+        super();
+    }
+
     public Customer(long id, String customerId, String name, String gender) {
         this.id = id;
         this.customerId = customerId;
@@ -37,7 +41,7 @@ public class Customer {
         this.name = name;
     }
 
-    public String isGender() {
+    public String getGender() {
         return gender;
     }
 
